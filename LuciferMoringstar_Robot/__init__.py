@@ -28,14 +28,20 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
-    
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
+✯ 𝙼𝚈 𝙽𝙰𝙼𝙴:
 
-➥ Language : Python3
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: 𝙳𝚁𝙾𝙽𝙾
 
-➥ Library : Pyrogram Asyncio 1.13.0
+✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 𝙰𝚂𝚈𝙽𝙲𝙸𝙾 1.13.0
 
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁:  𝙷𝙴𝚁𝙾𝙺𝚄
+
+
+
+
+
 """
