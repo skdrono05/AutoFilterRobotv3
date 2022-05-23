@@ -33,7 +33,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                            InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/Drono_Bot_Updates)
                         ]
                     ]
                 ),
@@ -355,4 +355,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("⚠️ ഇത് വേറെ ഒരാൾ REQUEST ചെയ്ത സിനിമ ആണ്. അത് കൊണ്ട് തന്നെ നിങ്ങൾക്കു ഫയൽ എടുക്കാൻ ACCESS ഇല്ല. നിങ്ങൾക് വേണ്ടുന്ന സിനിമ ഗ്രൂപ്പിൽ REQUEST ചെയ്യുക, BOT TAG ആയി REPLY തരുന്നത് ആകും.",show_alert=True)
