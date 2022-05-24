@@ -45,14 +45,14 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**𝙿𝙻𝙴𝙰𝚂𝙴 𝙹𝙾𝙸𝙽 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃! 𝙲𝙾𝙼𝙴 𝙰𝙽𝙳 𝙶𝙸𝚅𝙴 𝙸𝚃 𝙰 '𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽'**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/Drono_Bot_Updates)
+                                InlineKeyboardButton("🔰 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰", url=https://t.me/Movie_Show_TG)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔄 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 🔄", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
