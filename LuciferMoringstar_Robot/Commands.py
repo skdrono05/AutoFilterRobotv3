@@ -115,11 +115,19 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
-                ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
-                ]]
+                InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+
+            ],[
+
+            InlineKeyboardButton('💥 𝙾𝚆𝙽𝙴𝚁 💥',url='https://t.me/drono05')
+
+            InlineKeyboardButton('🤖 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🤖',url='https://t.me/Drono_Bot_Updates')
+
+            ],[
+
+            InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help'),
+
+            InlineKeyboardButton('💫 𝙰𝙱𝙾𝚄𝚃 💫', callback_data='about')
             )
         )
         StopPropagation
