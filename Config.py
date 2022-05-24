@@ -46,9 +46,29 @@ START_MSG = environ.get('START_MSG', default_start_msg)
 FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
 OMDB_API_KEY = environ.get("OMDB_API_KEY", "http://www.omdbapi.com/?i=tt3896198&apikey=4f08a979")
 if FILE_CAPTION.strip() == "":
-    CUSTOM_FILE_CAPTION=None
+    CUSTOM_FILE_CAPTION= {file_name}
+
+🔘 size - {file_size}
+
+╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+
+💥 𝙅𝙊𝙄𝙉 :- @Movie_Show_TG
+
+💥 𝙅𝙊𝙄𝙉 :- @MovieShowGroup
+
+╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝
 else:
-    CUSTOM_FILE_CAPTION=FILE_CAPTION
+    CUSTOM_FILE_CAPTION= {file_name}
+
+🔘 size - {file_size}
+
+╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+
+💥 𝙅𝙊𝙄𝙉 :- @Movie_Show_TG
+
+💥 𝙅𝙊𝙄𝙉 :- @MovieShowGroup
+
+╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝
 if OMDB_API_KEY.strip() == "":
     API_KEY=None
 else:
