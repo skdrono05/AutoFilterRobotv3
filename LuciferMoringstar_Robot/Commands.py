@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🔰 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰", url=https://t.me/Movie_Show_TG)
+                                InlineKeyboardButton("🔰 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰", url=https://t.me/+QoCiOv4LptpkYzM1)
                             ],
                             [
                                 InlineKeyboardButton("🔄 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 🔄", callback_data=f"checksub#{file_id}")
@@ -85,7 +85,7 @@ async def start(bot, message):
                 buttons = [
                     [
 
-                        InlineKeyboardButton('🍿 𝙼𝙾𝚅𝙸𝙴 𝚂𝙷𝙾𝚆', url=f'https://t.me/Movie_Show_TG')
+                        InlineKeyboardButton('🍿 𝙼𝙾𝚅𝙸𝙴 𝚂𝙷𝙾𝚆', url=f'https://t.me/+QoCiOv4LptpkYzM1')
 
                     ]
 
@@ -105,7 +105,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔰 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰", url=https://t.me/Movie_Show_TG)
+                        InlineKeyboardButton("🔰 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔰", url=https://t.me/+QoCiOv4LptpkYzM1)
                     ]
                 ]
             )
